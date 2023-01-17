@@ -1,6 +1,9 @@
-  verify-and-package:
+on: [push]
+  
+jobs:
 
-    needs: build
+  build:
+
 
     runs-on: ubuntu-latest
 
